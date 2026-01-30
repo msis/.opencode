@@ -1,7 +1,7 @@
 ---
 description: Focused task executor implementing specific features and fixes. No delegation capability - pure implementation specialist. Emphasizes code quality and best practices.
 mode: subagent
-model: github-copilot/gpt-5.2-codex
+model: opencode/minimax-m2.1-free
 temperature: 0.1
 permissions:
   edit: allow

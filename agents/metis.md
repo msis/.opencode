@@ -1,7 +1,7 @@
 ---
 description: Gap detector and pre-flight validator. Reviews plans to identify missing pieces, edge cases, and dependencies before implementation begins.
 mode: subagent
-model: github-copilot/gpt-5
+model: opencode/glm-4.7-free
 temperature: 0.3
 permissions:
   edit: deny

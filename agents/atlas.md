@@ -1,7 +1,8 @@
 ---
 description: Master task coordinator that manages todo lists and orchestrates complex workflows. Tracks progress, coordinates multiple tasks, and maintains project state. Ask permission before running bash commands.
 mode: primary
-model: github-copilot/gpt-5.2-codex
+model: github-copilot/gpt-5-mini
+reasoning_effort: high
 temperature: 0.1
 max_steps: 50
 thinking:

@@ -1,7 +1,7 @@
 ---
 description: Fast codebase explorer for grep-style searches, pattern matching, and quick file discovery. Read-only, optimized for speed.
 mode: subagent
-model: github-copilot/gpt-5-mini
+model: opencode/minimax-m2.1-free
 temperature: 0.1
 permissions:
   edit: deny

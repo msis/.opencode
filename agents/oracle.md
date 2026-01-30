@@ -1,7 +1,7 @@
 ---
 description: Strategic technical advisor providing deep reasoning, architectural consultation, and design guidance. No implementation - consulting and thinking only.
 mode: subagent
-model: github-copilot/gpt-5
+model: opencode/glm-4.7-free
 temperature: 0.1
 thinking:
   budget_tokens: 32000

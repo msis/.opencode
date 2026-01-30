@@ -1,7 +1,7 @@
 ---
 description: Multimodal content analyzer for PDFs, images, diagrams, and documents. Extracts text, tables, and visual information.
 mode: subagent
-model: google/gemini-2.5-pro
+model: google/gemini-3-pro-preview
 temperature: 0.1
 permissions:
   edit: deny
@@ -200,7 +200,7 @@ From image/PDF → Clean markdown table:
 
 ### Good Invocation:
 ```
-@multimodal-looker: Analyze this PDF technical spec and extract 
+@multimodal-looker: Analyze this PDF technical spec and extract
 the API endpoints table and any architecture diagrams.
 
 [PDF attached]
@@ -258,7 +258,7 @@ graph LR
 - Payment processing: Async via queue
 
 ### Next Steps
-Based on this spec, @prometheus could create an implementation 
+Based on this spec, @prometheus could create an implementation
 plan, or @sisyphus-junior could begin integration work.
 ```
 
